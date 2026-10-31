@@ -1,6 +1,6 @@
 # Lab 2: SQLite Database and CRUD Routes
 
-**Name:** NAVADEEP
+**Name:** KAKANABOINA NAVADEEP
 **Registration Number:** 252U1R5061
 **Section:** S-10
 **Course:** Backend Development Fundamentals
@@ -8,13 +8,11 @@
 **Faculty:** SHIVA SAI TEJA
 **Title:** SQLite database and CRUD routes
 
-## Deployment
+## Live Link https://navadeepbdflab2.onrender.com/books
 
-**Render service:** [navadeepbdflab2.onrender.com](https://navadeepbdflab2.onrender.com)
+**Status:** deployed
 
-The Render service is connected to this repository's `main` branch. It uses `lab2/` as its root directory, runs `npm install` to build, and starts the app with `npm start`. The API is available at [https://navadeepbdflab2.onrender.com/books/](https://navadeepbdflab2.onrender.com/books/).
-
-This free deployment uses a local SQLite database file. Render's free service does not provide persistent disk storage, so database changes may be lost when the service restarts or is redeployed.
+This project has been tested locally using Postman. The current version uses a local SQLite database file (`database.db`). Postman screenshots are included as evidence of the working endpoints. A public deployment URL will be added after deployment.
 
 ## Objective
 
@@ -117,10 +115,10 @@ The server provides the following five endpoints.
 
 ```json
 {
-  "title": "Clean Code",
-  "author": "Robert Martin",
-  "price": 500,
-  "pages": 464
+  "title": "Clean mode",
+  "author": "bob Martin",
+  "price": 899,
+  "pages": 563
 }
 ```
 
