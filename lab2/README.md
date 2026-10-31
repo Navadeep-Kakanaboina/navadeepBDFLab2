@@ -8,11 +8,13 @@
 **Faculty:** SHIVA SAI TEJA
 **Title:** SQLite database and CRUD routes
 
-## Live Link https://vinuthna-5017-lab2.onrender.com/books
+## Deployment
 
-**Status:** deployed
+**Render service:** [navadeepbdflab2.onrender.com](https://navadeepbdflab2.onrender.com)
 
-This project has been tested locally using Postman. The current version uses a local SQLite database file (`database.db`). Postman screenshots are included as evidence of the working endpoints. A public deployment URL will be added after deployment.
+The Render service is connected to this repository's `main` branch. It uses `lab2/` as its root directory, runs `npm install` to build, and starts the app with `npm start`. The API is available at [https://navadeepbdflab2.onrender.com/books/](https://navadeepbdflab2.onrender.com/books/).
+
+This free deployment uses a local SQLite database file. Render's free service does not provide persistent disk storage, so database changes may be lost when the service restarts or is redeployed.
 
 ## Objective
 
